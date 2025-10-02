@@ -2,6 +2,9 @@
 
 🧃 **OWASP Juice Shop** es una aplicación intencionalmente vulnerable para practicar detección de vulnerabilidades web.
 
+## Contribuciones
+Las contribuciones son bienvenidas. Revisa `CONTRIBUTING.md` para instrucciones. Por favor evita enviar artefactos que contengan credenciales; usa versiones sanitizadas.
+
 ## Resumen
 En este mini-laboratorio confirmé una **inyección SQL (SQLi)** en el endpoint de búsqueda `GET /rest/products/search?q=` y verifiqué No-IDOR en el caso probado.
 
