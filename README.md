@@ -1,2 +1,2 @@
 # OWASP-Juice-Shop
-Miini‑laboratorio: en local con Docker
+Mini‑laboratorio: en local con Docker
