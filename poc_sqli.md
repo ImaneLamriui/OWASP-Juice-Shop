@@ -3,6 +3,8 @@
 **Fecha:** 2025-09-30  
 **Entorno:** OWASP Juice Shop (local, Docker)
 
+
+<img src="evidence/1jui.jpg">
 ---
 
 ## Resumen
@@ -66,15 +68,18 @@ evidence/whoami_sanitized.json — resultado de /rest/user/whoami.
 
 evidence/basket_6_sanitized.json — resultado de /rest/basket/6.
 
+
+<img src="evidence/instalation_app.jpg">
+
 <img src="evidence/01_docker_status.png">
 
-evidence/02_devtools_search_response.png
+<img src="evidence/02_devtools_search_response.png">
 
-evidence/03_endpoints_list.png
+<img src="evidence/03_endpoints_list.png">
 
-evidence/04_no_idor_whoami_basket.png
-
-evidence/05_confirmation_sqli.png
+<img src="evidence/04_no_idor_whoami_basket.png
+">
+<img src="evidence/05_confirmation_sqli.png">
 
 Importante: los archivos incluidos deben estar sanitizados (tokens/credenciales reemplazados por REDACTED). No subir HARs ni logs sin sanitizar.
 
