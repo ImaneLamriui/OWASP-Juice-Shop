@@ -66,7 +66,7 @@ evidence/whoami_sanitized.json — resultado de /rest/user/whoami.
 
 evidence/basket_6_sanitized.json — resultado de /rest/basket/6.
 
-evidence/01_docker_status.png
+<img src="evidence/01_docker_status.png">
 
 evidence/02_devtools_search_response.png
 
