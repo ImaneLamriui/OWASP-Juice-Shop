@@ -62,13 +62,6 @@ Verificación No‑IDOR comparando /rest/user/whoami y /rest/basket/6: ambos mos
 
 ## Archivos de evidencia (sanitizados)
 
-evidence/sqli_response_sanitized.json — respuesta del curl con la tautología.
-
-evidence/whoami_sanitized.json — resultado de /rest/user/whoami.
-
-evidence/basket_6_sanitized.json — resultado de /rest/basket/6.
-
-
 <img src="evidence/instalation_app.jpg">
 
 <img src="evidence/01_docker_status.png">
