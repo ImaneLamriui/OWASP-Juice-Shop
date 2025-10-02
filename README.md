@@ -1,6 +1,8 @@
 # OWASP Juice Shop - Mini‑lab (local, Docker)
 
-🧃 **OWASP Juice Shop** es una aplicación intencionalmente vulnerable para practicar la detección de vulnerabilidades web.
+🧃 **OWASP Juice Shop**: 
+
+#### Una aplicación intencionalmente vulnerable para practicar la detección de vulnerabilidades web.
 
 <img src="evidence/1jui.jpg">
 
