@@ -62,16 +62,22 @@ Verificación No‑IDOR comparando /rest/user/whoami y /rest/basket/6: ambos mos
 
 ## Archivos de evidencia (sanitizados)
 
+
 <img src="evidence/instalation_app.jpg">
 
+### docker_status
 <img src="evidence/01_docker_status.png">
 
+### devtools_search_response
 <img src="evidence/02_devtools_search_response.png">
 
+### los endpoints_list
 <img src="evidence/03_endpoints_list.png">
 
-<img src="evidence/04_no_idor_whoami_basket.png
-">
+### no_idor_whoami_basket
+<img src="evidence/04_no_idor_whoami_basket.png">
+
+### confirmation_sqli
 <img src="evidence/05_confirmation_sqli.png">
 
 Importante: los archivos incluidos deben estar sanitizados (tokens/credenciales reemplazados por REDACTED). No subir HARs ni logs sin sanitizar.
